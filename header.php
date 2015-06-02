@@ -39,21 +39,24 @@
 <div id="wrapper" class="hfeed site">
 
 	<div class="visuallyhidden skip-link"><a href="#primary" title="<?php esc_attr_e( 'Skip to main content', 'quark' ); ?>"><?php esc_html_e( 'Skip to main content', 'quark' ); ?></a></div>
-
+	<div id="site-socialmedia">
+		<div class="site-header row">
+			<div class="col grid_12_of_12">
+				<ul class="redes_sociais_header">
+					<li class="youtube"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 	<div id="headercontainer">
-
 		<header id="masthead" class="site-header row" role="banner">
 			<div class="col grid_5_of_12 site-title">
 				<h1>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home">
-						<?php 
-						$headerImg = get_header_image();
-						if( !empty( $headerImg ) ) { ?>
-							<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
-						<?php } 
-						else {
-							echo get_bloginfo( 'name' );
-						} ?>
+						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo_header.png"; ?>" alt="" />
 					</a>
 				</h1>
 			</div> <!-- /.col.grid_5_of_12 -->
@@ -69,10 +72,10 @@
 				</nav> <!-- /.site-navigation.main-navigation -->
 			</div> <!-- /.col.grid_7_of_12 -->
 		</header> <!-- /#masthead.site-header.row -->
-
 	</div> <!-- /#headercontainer -->
-	<div class="site-content row" style="border:1px solid black;">
-	
+	<div id="bannercontainer">
+		<div class="banner" >
+		</div>
 	</div> <!-- /#bannercontainer -->
 
 	<div id="maincontentcontainer">
