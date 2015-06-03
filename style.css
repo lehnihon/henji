@@ -20,8 +20,8 @@ body { margin: 0; font-size: 16px; font-size: 1rem; line-height: 1.5; }
 ::selection { background: #5784FE; color: #fff; text-shadow: none; }
 
 a { color: #333; text-decoration: underline; }
-a:visited { color: #666; }
-a:hover { color: #b40101; }
+a:visited { color: white; }
+a:hover { color: #1a7d79; }
 
 menu { padding: 0; }
 
@@ -102,6 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	color: #333;
 	margin-top: 0;
+	text-align: center
 }
 
 h1 { 
@@ -118,6 +119,7 @@ h2 {
 	font-size: 36px;
 	font-size: 2.25rem;
 	line-height: 1.1666;
+	color:#7d1a1e;
 }
 
 h3 { 
@@ -208,21 +210,22 @@ ins {
 a { 
 	color: #333;
 	outline: none;
+	text-decoration: none;
 }
 
 a:visited { 
-	color: #666;
+	color: white;
 }
 
 a:focus { 
 	outline: thin dotted;
-	color: #2997ab;
 }
 
-a:hover, a:active { 
+a:hover { 
 	outline: 0;
-	color: #2997ab;
+	color: #1a7d79;
 }
+
 
 .alignleft {
 	display: inline;
@@ -640,21 +643,60 @@ select {
 }
 
 .redes_sociais_header{
+	margin-top: 5px;
+	height: 22px;
 	text-align: left;
 	clear: right;
 	list-style:none;
 	float:right;
 }
 
+.redes_sociais_header li:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.redes_sociais_header a{
+	display: inline-block;
+	width:22px;
+	height:20px;
+}
+
 .redes_sociais_header .youtube{
 	background-image: url("images/redes_sociais.png");
 	background-position: left,center;
 	background-repeat:no-repeat;
-	width:25px;
-	height:25px;
+	width:22px;
+	height:20px;
 	display:inline-block;		
 }
 
+.redes_sociais_header .instagram{
+	background-image: url("images/redes_sociais.png");
+	background-position: -26px,center;
+	background-repeat:no-repeat;
+	width:22px;
+	height:20px;
+	display:inline-block;		
+}
+
+.redes_sociais_header .twitter{
+	background-image: url("images/redes_sociais.png");
+	background-position: -52px,center;
+	background-repeat:no-repeat;
+	width:22px;
+	height:20px;
+	display:inline-block;		
+}
+
+.redes_sociais_header .facebook{
+	background-image: url("images/redes_sociais.png");
+	background-position: right,center;
+	background-repeat:no-repeat;
+	width:22px;
+	height:20px;
+	display:inline-block;		
+}
 
 .site-header {
 	clear: both;
@@ -676,6 +718,7 @@ select {
 .site-title img {
 	vertical-align: text-center;
 }
+
 
 .site-title a {
 	color: #333;
@@ -806,6 +849,39 @@ select {
 /* ==========================================================================
    Main Content
    ========================================================================== */
+
+#primary {
+	width: 100%;
+	background: #f8f7f7;
+}
+
+#primary img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;	
+}
+
+#secondary {
+	width: 100%;
+	background: none;
+}
+
+#tertiary {
+	width: 100%;
+	background: none;
+}
+
+.saiba-mais{
+	color:white;
+	background-color: #7d1a1e;
+	padding: 10px 40px;
+	font-weight: bold;
+}
+
+.saiba-mais:hover{
+	background-color: #ae242a;
+	color:white;
+}
 
 .entry-meta {
 	clear: both;
@@ -1842,7 +1918,7 @@ li span.dots {
 .main-small-navigation a, .main-navigation a {
 	display: block;
 	text-decoration: none;
-	color: #333; /* Nav bar link color */
+	color: white; /* Nav bar link color */
 }
 
 .main-navigation ul ul {

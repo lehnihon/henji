@@ -43,10 +43,10 @@
 		<div class="site-header row">
 			<div class="col grid_12_of_12">
 				<ul class="redes_sociais_header">
-					<li class="youtube"></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li class="youtube"><a href="#"></a></li>
+					<li class="instagram"><a href="#"></a></li>
+					<li class="twitter"><a href="#"></a></li>
+					<li class="facebook"><a href="#"></a></li>
 				</ul>
 			</div>
 		</div>

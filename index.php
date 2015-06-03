@@ -13,29 +13,71 @@
  */
 
 get_header(); ?>
+	<div id="primary" role="main">
+		<div class="site-content">
+			<div class="row">
+				<div class="col grid_12_of_12">
+					<h2>Módulos Henji</h2>
+					<h5>Sistema para locadora de veículos</h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col grid_1_of_12"><br></div>
+				<div class="col grid_2_of_12">
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/modulo1.png"; ?>"/>
+					<p>
+						Tenha seu próprio site com sua Central de Reservas online.
+					</p>
+				</div>
+				<div  class="col grid_2_of_12">
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/modulo2.png"; ?>"/>
+					<p>
+						Controle de toda Frota de Veículos, documentação, multas e SAC.
+					</p>			
+				</div>
+				<div class="col grid_2_of_12">
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/modulo3.png"; ?>"/>
+					<p>
+						Gestão completa da Locadora, com controle total das funcionalidades.
+					</p>				
+				</div>
+				<div class="col grid_2_of_12">
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/modulo4.png"; ?>"/>
+					<p>
+						Gerenciamento das manutenções preventivas e corretivas.
+					</p>			
+				</div>
+				<div class="col grid_2_of_12">
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/modulo5.png"; ?>"/>
+					<p>
+						Controle da movimentação financeira, contas a pagas e faturamento.
+					</p>			
+				</div>
+				<div class="col grid_1_of_12"><br></div>
 
-	<div id="primary" class="site-content row" role="main">
-
-		<div class="col grid_12_of_12">
-
-			<?php if ( have_posts() ) : ?>
-
-				<?php // Start the Loop ?>
-				<?php while ( have_posts() ) : the_post(); ?>
-					<?php get_template_part( 'content', get_post_format() ); // Include the Post-Format-specific template for the content ?>
-				<?php endwhile; ?>
-
-				<?php quark_content_nav( 'nav-below' ); ?>
-
-			<?php else : ?>
-
-				<?php get_template_part( 'no-results' ); // Include the template that displays a message that posts cannot be found ?>
-
-			<?php endif; // end have_posts() check ?>
-
-		</div> <!-- /.col.grid_8_of_12 -->
-		<?php get_sidebar(); ?>
-
+			</div>
+			<div class="row">
+				<div class="col grid_5_of_12"><br></div>
+				<div class="col grid_2_of_12">
+					<a href="#"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
+				</div>
+				<div class="col grid_5_of_12"><br></div>
+			</div>
+		</div>
+	</div>
+	<div id="secondary" class="site-content row" role="main">
+		<div class="site-content row">
+			<div class="col grid_12_of_12">
+				conteudo
+			</div>
+		</div>
 	</div> <!-- /#primary.site-content.row -->
+	<div id="tertiary" class="site-content row" role="main">
+		<div class="site-content row">
+			<div class="col grid_12_of_12">
+				conteudo
+			</div>
+		</div>
+	</div>
 
 <?php get_footer(); ?>
