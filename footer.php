@@ -15,50 +15,55 @@
 	</div> <!-- /#maincontentcontainer -->
 
 	<div id="footercontainer">
-
+		<br>
 		<footer class="site-footer row" role="contentinfo">
-
-			<?php
-			// Count how many footer sidebars are active so we can work out how many containers we need
-			$footerSidebars = 0;
-			for ( $x=1; $x<=4; $x++ ) {
-				if ( is_active_sidebar( 'sidebar-footer' . $x ) ) {
-					$footerSidebars++;
-				}
-			}
-
-			// If there's one or more one active sidebars, create a row and add them
-			if ( $footerSidebars > 0 ) { ?>
-				<?php
-				// Work out the container class name based on the number of active footer sidebars
-				$containerClass = "grid_" . 12 / $footerSidebars . "_of_12";
-
-				// Display the active footer sidebars
-				for ( $x=1; $x<=4; $x++ ) {
-					if ( is_active_sidebar( 'sidebar-footer'. $x ) ) { ?>
-						<div class="col <?php echo $containerClass?>">
-							<div class="widget-area" role="complementary">
-								<?php dynamic_sidebar( 'sidebar-footer'. $x ); ?>
-							</div>
-						</div> <!-- /.col.<?php echo $containerClass?> -->
-					<?php }
-				} ?>
-
-			<?php } ?>
-
-		</footer> <!-- /.site-footer.row -->
-
-		<?php if ( of_get_option( 'footer_content', quark_get_credits() ) ) {
-			echo '<div class="row smallprint">';
-			echo apply_filters( 'meta_content', wp_kses_post( of_get_option( 'footer_content', quark_get_credits() ) ) );
-			echo '</div> <!-- /.smallprint -->';
-		} ?>
-
+			<div class="col grid_4_of_12" >
+				<img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo_header.png"; ?>" alt="" /><br><br>
+				<h4>Liderança não se conquista por acaso.</h4>
+				<p>A Henji é uma empresa que desenvolve sistemas para gestão de locadoras de veículos.</p>
+			</div>
+			<div class="col grid_2_of_12" ><br/>
+			</div>
+			<div class="col grid_2_of_12" >
+				<h4>Soluções</h4><br>
+				<ul>
+					<li><a href="#">Sistema Henji</a></li>
+					<li><a href="#">GMD</a></li>
+					<li><a href="#">Criação de Site</a></li>
+					<li><a href="#">Experimente</a></li>
+				</ul>
+			</div>
+			<div class="col grid_2_of_12" >
+				<h4>Institucional</h4><br>
+				<ul>
+					<li><a href="#">Sobre Nós</a></li>
+					<li><a href="#">Parceiros</a></li>
+					<li><a href="#">Localização</a></li>
+				</ul>
+			</div>
+			<div class="col grid_2_of_12" >
+				<h4>Atendimento</h4><br>
+				<ul>
+					<li><a href="#">Suporte</a></li>
+					<li><a href="#">Contato</a></li>
+					<li>Telefone 11 4332-8787</li>
+				</ul>
+			</div>
+		</footer><br>
 	</div> <!-- /.footercontainer -->
+	<div id="footercontainercopy">
 
+		<footer class="row">
+			<p>©Copyright 2015 - Henji</p>
+		</footer> 
+	</div> <!-- /.footercontainer -->
 </div> <!-- /.#wrapper.hfeed.site -->
 
 <?php wp_footer(); ?>
+<script>
+	var dirbase = "<?php echo dirname( get_bloginfo('stylesheet_url')) ?>";
+</script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
 </body>
 
 </html>

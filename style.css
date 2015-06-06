@@ -99,10 +99,9 @@ img.wp-smiley,
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Arvo', Georgia, "Times New Roman", Times, serif;
 	font-style: normal;
-	font-weight: 400;
 	color: #333;
 	margin-top: 0;
-	text-align: center
+	font-weight: bold;
 }
 
 h1 { 
@@ -120,6 +119,7 @@ h2 {
 	font-size: 2.25rem;
 	line-height: 1.1666;
 	color:#7d1a1e;
+	font-weight: bold;
 }
 
 h3 { 
@@ -128,6 +128,7 @@ h3 {
 	font-size: 28px;
 	font-size: 1.75rem;
 	line-height: 1.2857;
+	color:#7d1a1e;
 }
 
 
@@ -620,6 +621,9 @@ select {
 	text-transform: uppercase;
 }
 
+.cor-padrao{
+	color:#7d1a1e;
+}
 
 /* ==========================================================================
    Site specific styles
@@ -629,6 +633,12 @@ select {
 	width: 100%;
 	position: relative;
 	text-align: left;
+}
+
+#map-canvas {
+	border:10px solid white;
+	width: 100%;
+	height: 400px;
 }
 
 #headercontainer {
@@ -729,7 +739,7 @@ select {
 
 #bannercontainer {
 	width: 100%;
-	margin-top: 10px;
+	margin-bottom: 20px;
 	background: none;
 }
 
@@ -780,6 +790,7 @@ select {
 }
 
 #maincontentcontainer {
+	margin-top: 20px;
 	width: 100%;
 }
 
@@ -853,6 +864,20 @@ select {
 #primary {
 	width: 100%;
 	background: #f8f7f7;
+	color: #C0C0C0;
+}
+
+#primary h5 {
+	margin:20px 0;
+	color:#7d1a1e;
+}
+
+#primary h6 {
+	margin:20px 0;
+}
+
+#primary p {
+	margin:15px 0;
 }
 
 #primary img{
@@ -861,26 +886,220 @@ select {
     margin-right: auto;	
 }
 
+#primary .modelo-premium li{
+	background-color: white;
+	text-align: center;
+	margin: 5px 0;
+	padding: 8px;
+    font-weight: bold;
+}
+
+#primary .modelo-premium .modelo-header{
+    background-color: #2072b7;
+    padding: 20px 40px;
+    color: white;
+    text-align: center;
+}
+
+#primary .modelo-premium .modelo-header p{
+	font-size: 30px;
+	margin:0;
+	margin-bottom: 5px;
+}
+
+#primary .modelo-basico li{
+	background-color: white;
+	text-align: center;
+	margin: 5px 0;
+	padding: 8px;
+    font-weight: bold;
+}
+
+#primary .modelo-basico .modelo-header{
+    background-color: #3087d1;
+    padding: 20px 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#primary .modelo-basico .modelo-header p{
+	font-size: 30px;
+	margin:0;
+	margin-bottom: 5px;
+}
+
+#primary .contato-enviar{
+	padding: 15px 40px;
+	background-image: none;
+	background-color: #7d1a1e;
+	color:white;
+}
+
+#primary .contato-enviar:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
 #secondary {
 	width: 100%;
 	background: none;
+	color: #C0C0C0;
+}
+
+#secondary h5 {
+	margin:20px 0;
+	color:#7d1a1e;
+}
+
+#secondary h6 {
+	margin:20px 0;
+}
+
+#secondary p {
+	margin:15px 0;
+}
+
+#secondary img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;	
 }
 
 #tertiary {
 	width: 100%;
-	background: none;
+	background: #f8f7f7;
+	margin-bottom: 50px;
+}
+#tertiary .site-content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
 }
 
-.saiba-mais{
-	color:white;
-	background-color: #7d1a1e;
-	padding: 10px 40px;
+#tertiary .descricao-news{
 	font-weight: bold;
 }
 
-.saiba-mais:hover{
-	background-color: #ae242a;
+#tertiary .newsletter-nome-wrap{
+	padding: 0 5px;
+	float:left !important;
+}
+
+#tertiary .newsletter-nome{
+	padding: 15px 5px;
+}
+
+
+#tertiary .newsletter-email-wrap{
+	padding: 0 5px;
+	float:left !important;
+}
+
+#tertiary .newsletter-email{
+	padding: 15px 5px;
+}
+
+#tertiary .newsletter-enviar-wrap{
+	padding: 0 5px;
+	float:left !important;
+}
+
+#tertiary .newsletter-enviar{
+	padding: 15px;
+	background-image: none;
+	background-color: #7d1a1e;
 	color:white;
+}
+
+#tertiary .newsletter-enviar:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.botaoa{
+	cursor: pointer;
+}
+
+.botaob{
+	cursor: pointer;
+}
+
+.botaoc{
+	cursor: pointer;
+}
+
+.botaod{
+	cursor: pointer;
+}
+
+.botaoe{
+	cursor: pointer;
+}
+
+.botaoa:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.botaob:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.botaoc:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.botaod:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.botaoe:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.tabelaa{
+	padding-bottom: 20px;
+	color:#7d1a1e;
+}
+
+.tabelab{
+	padding-bottom: 20px;
+	color:#7d1a1e;
+}
+
+.tabelac{
+	padding-bottom: 20px;
+	color:#7d1a1e;
+}
+
+.tabelad{
+	padding-bottom: 20px;
+	color:#7d1a1e;
+}
+.tabelae{
+	padding-bottom: 20px;
+	color:#7d1a1e;
+}
+
+.saiba-mais:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */	
+}
+
+.efeito-cinza:hover{
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
 }
 
 .entry-meta {
@@ -1578,7 +1797,29 @@ form label.error {
    ========================================================================== */
 
 #footercontainer {
-	width: 100%;	
+	width: 100%;
+	color:white;	
+}
+
+#footercontainer ul{
+	padding: 0;	
+}
+
+#footercontainer a{
+	color:white;	
+}
+
+#footercontainer a:hover { color: #1a7d79; }
+
+#footercontainercopy {
+	width: 100%;
+	padding: 10px 0;
+	background-color: #530b0e;	
+}
+
+#footercontainercopy p {
+	text-align: center;
+	color:white;
 }
 
 .site-footer {
@@ -1588,31 +1829,18 @@ form label.error {
 	font-size: 1rem;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 30px 0 0 0;
-	padding: 1.875rem 0 0 0;
-	color: #999;
+	padding: 30px 0 30px 0;
+	padding: 1.875rem 0 1.875rem 0;
+	color: white;
 }
 
-.site-footer h3 { 
-	color: #ccc;
+.site-footer h4 {
+	text-align: left; 
+	color: white;
+	font-size: 18px;
+	margin-top: 10px;
 }
 
-.site-footer a { 
-	color: #999;
-}
-
-.site-footer a:visited { 
-	color: #999;
-}
-
-.site-footer a:hover { 
-	color: #2997ab;
-}
-
-.site-footer a:focus { 
-	outline: thin dotted;
-	color: #2997ab;
-}
 
 .site-footer .widget-area .widget {
 	margin-bottom: 16px;
@@ -2273,9 +2501,13 @@ h1.page-title {
 		margin-left: 0;
 	}
 	header .main-navigation {
-		margin-top: 0;
 		float: none;
 	}
+
+	header .main-navigation a {
+		color:#333;
+	}
+
 	.main-navigation .nav-menu > li:first-child {
 		margin-left: 0;
 	}
