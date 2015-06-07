@@ -59,7 +59,7 @@ get_header(); ?>
 			</div>
 			<div class="row site-content">
 				<div class="col grid_12_of_12">
-					<a href="#"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicite_senha.jpg"; ?>"/></a>
+					<a href="<?php echo site_url(); ?>/contato"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicite_senha.jpg"; ?>"/></a>
 				</div>
 			</div>
 		</div>
@@ -69,11 +69,11 @@ get_header(); ?>
 			<div class="col grid_5_of_12">
 				<h3 style="text-align:center">SISTEMA HENJI</h3>
 				<h6 style="text-align:center">Sistema de Gestão para locadoras de veículos.</h6>
-				<a href="#"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
+				<a href="<?php echo site_url(); ?>/sistema-henji"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
 				<p>
 					O Sistema de Gestão de Locadoras de Veículos Henji, coloca sua empresa em suas mãos quando e aonde você estiver.
 				</p>
-				<a href="#"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
+				<a href="<?php echo site_url(); ?>/sistema-henji"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
 			</div>
 			<div class="col grid_1_of_12" ><br/>
 			</div>
@@ -82,11 +82,11 @@ get_header(); ?>
 			<div class="col grid_5_of_12">
 				<h3 style="text-align:center">CRIAÇÃO DE SITE</h3>
 				<h6 style="text-align:center">Tenha um site para sua empresa</h6>
-				<a href="#"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/criacao_site.png"; ?>"/></a>
+				<a href="<?php echo site_url(); ?>/criacao-de-site"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/criacao_site.png"; ?>"/></a>
 				<p>
 					A Henji está inovando mais uma vez, estamos oferecendo o serviço de criação de sites para locadoras de veículos.
 				</p>
-				<a href="#"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
+				<a href="<?php echo site_url(); ?>/criacao-de-site"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
 			</div>
 		</div>
 	</div> <!-- /#primary.site-content.row -->

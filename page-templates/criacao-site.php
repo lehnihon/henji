@@ -56,7 +56,7 @@ get_header(); ?>
 						<li style="display:none">Personalização de cores</li>
 					<ul>
 					<br />
-					<a href="#"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contrate.jpg"; ?>"/></a>
+					<a href="<?php echo site_url(); ?>/contrate"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contrate.jpg"; ?>"/></a>
 				</div>
 				<div class="col grid_1_of_12" ><br/>
 				</div>
@@ -74,7 +74,7 @@ get_header(); ?>
 						<li style="display:none">Personalização de cores</li>
 					<ul>
 					<br />
-					<a href="#"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contrate.jpg"; ?>"/></a>
+					<a href="<?php echo site_url(); ?>/contrate"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contrate.jpg"; ?>"/></a>
 				</div>			
 			</div>
 		</div>
@@ -82,26 +82,26 @@ get_header(); ?>
 	<div id="secondary" role="main">
 		<div class="site-content row">
 			<div class="col grid_5_of_12">
-				<h3>SISTEMA HENJI</h3>
-				<h6>Sistema de Gestão para locadoras de veículos.</h6>
-				<a href="#"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
+				<h3 style="text-align:center">SISTEMA HENJI</h3>
+				<h6 style="text-align:center">Sistema de Gestão para locadoras de veículos.</h6>
+				<a href="<?php echo site_url(); ?>/sistema-henji"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
 				<p>
 					O Sistema de Gestão de Locadoras de Veículos Henji, coloca sua empresa em suas mãos quando e aonde você estiver.
 				</p>
-				<a href="#"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
+				<a href="<?php echo site_url(); ?>/sistema-henji"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
 			</div>
 			<div class="col grid_1_of_12" ><br/>
 			</div>
 			<div class="col grid_1_of_12"><br/>
 			</div>	
 			<div class="col grid_5_of_12">
-				<h3>GMD</h3>
-				<h6>Gerenciamento e Manutenção a Distância</h6>
-				<a href="#"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
+				<h3 style="text-align:center">GMD</h3>
+				<h6 style="text-align:center">Gerenciamento e Manutenção a Distância</h6>
+				<a href="<?php echo site_url(); ?>/modulo-gmd"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
 				<p>
 					Neste módulo é possível realizar as cotações, negociações e aberturas de Ordens de Serviços pela Internet através da sua própria rede de prestadores de serviços credenciados.
 				</p>
-				<a href="#"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
+				<a href="<?php echo site_url(); ?>/modulo-gmd"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
 			</div>
 		</div>
 	</div> <!-- /#primary.site-content.row -->

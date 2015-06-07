@@ -30,33 +30,33 @@ get_header(); ?>
 				<div class="col grid_3_of_12">
 					<h3>SISTEMA HENJI</h3>
 					<h6>Sistema de Gestão para locadoras de veículos.</h6>
-					<a href="#"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
+					<a href="<?php echo site_url(); ?>/sistema-henji"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
 					<p>
 						O Sistema de Gestão de Locadoras de Veículos Henji, coloca sua empresa em suas mãos quando e aonde você estiver.
 					</p><br/>
-					<a href="#"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
+					<a href="<?php echo site_url(); ?>/sistema-henji"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
 				</div>
 				<div class="col grid_1_of_12" ><br/>
 				</div>
 				<div class="col grid_3_of_12">
 					<h3>GMD</h3>
 					<h6>Gerenciamento e Manutenção a Distância</h6>
-					<a href="#"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
+					<a href="<?php echo site_url(); ?>/modulo-gmd"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
 					<p>
 						Neste módulo é possível realizar as cotações, negociações e aberturas de Ordens de Serviços pela Internet através da sua própria rede de prestadores de serviços credenciados.
 					</p>
-					<a href="#"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
+					<a href="<?php echo site_url(); ?>/modulo-gmd"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
 				</div>
 				<div class="col grid_1_of_12"><br/>
 				</div>			
 				<div class="col grid_3_of_12">
 					<h3>CRIAÇÃO DE SITE</h3>
 					<h6>Tenha um site para sua empresa</h6>
-					<a href="#"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/criacao_site.png"; ?>"/></a>
+					<a href="<?php echo site_url(); ?>/criacao-de-site"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/criacao_site.png"; ?>"/></a>
 					<p>
 						A Henji está inovando mais uma vez, estamos oferecendo o serviço de criação de sites para locadoras de veículos.
 					</p><br/>
-					<a href="#"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
+					<a href="<?php echo site_url(); ?>/criacao-de-site"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
 				</div>
 			</div>
 		</div>

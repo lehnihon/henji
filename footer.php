@@ -27,25 +27,25 @@
 			<div class="col grid_2_of_12" >
 				<h4>Soluções</h4><br>
 				<ul>
-					<li><a href="#">Sistema Henji</a></li>
-					<li><a href="#">GMD</a></li>
-					<li><a href="#">Criação de Site</a></li>
-					<li><a href="#">Experimente</a></li>
+					<li><a href="<?php echo site_url(); ?>/sistema-henji">Sistema Henji</a></li>
+					<li><a href="<?php echo site_url(); ?>/modulo-gmd">GMD</a></li>
+					<li><a href="<?php echo site_url(); ?>/criacao-de-site">Criação de Site</a></li>
+					<li><a href="<?php echo site_url(); ?>/contato">Experimente</a></li>
 				</ul>
 			</div>
 			<div class="col grid_2_of_12" >
 				<h4>Institucional</h4><br>
 				<ul>
 					<li><a href="#">Sobre Nós</a></li>
-					<li><a href="#">Parceiros</a></li>
-					<li><a href="#">Localização</a></li>
+					<li><a href="<?php echo site_url(); ?>/parceiros">Parceiros</a></li>
+					<li><a href="<?php echo site_url(); ?>/contato">Localização</a></li>
 				</ul>
 			</div>
 			<div class="col grid_2_of_12" >
 				<h4>Atendimento</h4><br>
 				<ul>
-					<li><a href="#">Suporte</a></li>
-					<li><a href="#">Contato</a></li>
+					<li><a href="<?php echo site_url(); ?>/contato">Suporte</a></li>
+					<li><a href="<?php echo site_url(); ?>/contato">Contato</a></li>
 					<li>Telefone 11 4332-8787</li>
 				</ul>
 			</div>
