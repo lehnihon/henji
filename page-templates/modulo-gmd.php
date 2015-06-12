@@ -66,24 +66,20 @@ get_header(); ?>
 	</div>
 	<div id="secondary" role="main">
 		<div class="site-content row">
-			<div class="col grid_5_of_12">
+			<div class="col grid_6_of_12">
 				<h3 style="text-align:center">SISTEMA HENJI</h3>
 				<h6 style="text-align:center">Sistema de Gestão para locadoras de veículos.</h6>
 				<a href="<?php echo site_url(); ?>/sistema-henji"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
-				<p>
+				<p style="text-align:center">
 					O Sistema de Gestão de Locadoras de Veículos Henji, coloca sua empresa em suas mãos quando e aonde você estiver.
 				</p>
 				<a href="<?php echo site_url(); ?>/sistema-henji"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
 			</div>
-			<div class="col grid_1_of_12" ><br/>
-			</div>
-			<div class="col grid_1_of_12"><br/>
-			</div>	
-			<div class="col grid_5_of_12">
+			<div class="col grid_6_of_12">
 				<h3 style="text-align:center">CRIAÇÃO DE SITE</h3>
 				<h6 style="text-align:center">Tenha um site para sua empresa</h6>
 				<a href="<?php echo site_url(); ?>/criacao-de-site"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/criacao_site.png"; ?>"/></a>
-				<p>
+				<p style="text-align:center">
 					A Henji está inovando mais uma vez, estamos oferecendo o serviço de criação de sites para locadoras de veículos.
 				</p>
 				<a href="<?php echo site_url(); ?>/criacao-de-site"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
