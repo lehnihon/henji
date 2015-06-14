@@ -91,7 +91,7 @@ get_header(); ?>
 				<h6 style="text-align:center">Gerenciamento e Manutenção a Distância</h6>
 				<a href="<?php echo site_url(); ?>/modulo-gmd"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
 				<p style="text-align:center">
-					Neste módulo é possível realizar as cotações, negociações e aberturas de Ordens de Serviços pela Internet
+					Neste módulo é possível realizar as cotações, negociações e aberturas de Ordens de Serviços pela Internet.
 				</p>
 				<a href="<?php echo site_url(); ?>/modulo-gmd"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
 			</div>
