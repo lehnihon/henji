@@ -26,7 +26,7 @@
 	<!-- Responsive and mobile friendly stuff -->
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' />
 
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -44,10 +44,10 @@
 		<div class="site-header row">
 			<div class="col grid_12_of_12">
 				<ul class="redes_sociais_header">
-					<li class="youtube"><a href="#"></a></li>
-					<li class="instagram"><a href="#"></a></li>
-					<li class="twitter"><a href="#"></a></li>
-					<li class="facebook"><a href="#"></a></li>
+					<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCNkHrw4ujO_bUW7nmrPF1TA"></a></li>
+					<li class="instagram"><a target="_blank" href="https://instagram.com/henjioficial"></a></li>
+					<li class="twitter"><a target="_blank" href="https://twitter.com/henjioficial"></a></li>
+					<li class="facebook"><a target="_blank" href="https://www.facebook.com/henjioficial"></a></li>
 				</ul>
 			</div>
 		</div>
@@ -63,13 +63,11 @@
 			</div> <!-- /.col.grid_5_of_12 -->
 
 			<div class="col grid_7_of_12">
-				<div class="social-media-icons">
-					<?php echo quark_get_social_media(); ?>
-				</div>
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<h3 class="menu-toggle assistive-text"><?php esc_html_e( 'Menu', 'quark' ); ?></h3>
 					<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'quark' ); ?>"><?php esc_html_e( 'Skip to content', 'quark' ); ?></a></div>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+					<div class="menu-mobile"></div>
 				</nav> <!-- /.site-navigation.main-navigation -->
 			</div> <!-- /.col.grid_7_of_12 -->
 		</header> <!-- /#masthead.site-header.row -->

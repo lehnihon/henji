@@ -861,6 +861,16 @@ select {
    Main Content
    ========================================================================== */
 
+#site-navigation-mobile .fa{
+	font-size: 30px;
+	color: white;
+}
+
+#site-navigation-mobile .fa:hover{
+	cursor: pointer;
+	color: #2997ab;
+}
+
 #primary {
 	width: 100%;
 	background: #f8f7f7;
@@ -941,6 +951,10 @@ select {
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
+#primary .field-wrap{
+	margin-bottom: 10px;
+}
+
 #secondary {
 	width: 100%;
 	background: none;
@@ -966,6 +980,10 @@ select {
     margin-right: auto;	
 }
 
+#secondary .solucoes-padding{
+	padding: 0 30px;
+}
+
 #tertiary {
 	width: 100%;
 	background: #f8f7f7;
@@ -988,8 +1006,7 @@ select {
 }
 
 #tertiary .newsletter-nome-wrap{
-	padding: 0 5px;
-	float:left !important;
+	margin: 0;
 }
 
 #tertiary .newsletter-nome{
@@ -998,8 +1015,7 @@ select {
 
 
 #tertiary .newsletter-email-wrap{
-	padding: 0 5px;
-	float:left !important;
+	margin: 0;
 }
 
 #tertiary .newsletter-email{
@@ -1007,8 +1023,7 @@ select {
 }
 
 #tertiary .newsletter-enviar-wrap{
-	padding: 0 5px;
-	float:left !important;
+	margin: 0;
 }
 
 #tertiary .newsletter-enviar{
@@ -1022,6 +1037,7 @@ select {
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
+
 
 .botaoa{
 	cursor: pointer;
@@ -2500,7 +2516,7 @@ h1.page-title {
 		width: 100%;
 		margin-left: 0;
 	}
-	header .main-navigation {
+	header .main-navigation {	
 		float: none;
 	}
 

@@ -66,7 +66,7 @@ get_header(); ?>
 	</div>
 	<div id="secondary" role="main">
 		<div class="site-content row">
-			<div class="col grid_6_of_12">
+			<div class="col grid_6_of_12 solucoes-padding">
 				<h3 style="text-align:center">SISTEMA HENJI</h3>
 				<h6 style="text-align:center">Sistema de Gestão para locadoras de veículos.</h6>
 				<a href="<?php echo site_url(); ?>/sistema-henji"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
@@ -75,7 +75,7 @@ get_header(); ?>
 				</p>
 				<a href="<?php echo site_url(); ?>/sistema-henji"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
 			</div>
-			<div class="col grid_6_of_12">
+			<div class="col grid_6_of_12 solucoes-padding">
 				<h3 style="text-align:center">CRIAÇÃO DE SITE</h3>
 				<h6 style="text-align:center">Tenha um site para sua empresa</h6>
 				<a href="<?php echo site_url(); ?>/criacao-de-site"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/criacao_site.png"; ?>"/></a>

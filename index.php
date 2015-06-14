@@ -62,7 +62,7 @@ get_header(); ?>
 					<a href="<?php echo site_url(); ?>/sistema-henji"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/modulo5.png"; ?>"/></a>
 					<h5 style="text-align:center">Módulo Financeiro</h5>
 					<p style="text-align:center">
-						Controle da movimentação financeira, contas a pagas e faturamento.
+						Controle da sua movimentação financeira e faturamento.
 					</p>			
 				</div>
 				<div class="col grid_1_of_12"><br></div>
@@ -79,16 +79,16 @@ get_header(); ?>
 	</div>
 	<div id="secondary" role="main">
 		<div class="site-content row">
-			<div class="col grid_6_of_12">
+			<div class="col grid_6_of_12 solucoes-padding">
 				<h2 style="text-align:center">GMD</h2>
 				<h5 style="text-align:center; color:#333">Gerenciamento e Manutenção a Distância</h5>
 				<a href="<?php echo site_url(); ?>/modulo-gmd"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
 				<p style="text-align:center">
-					Neste módulo é possível realizar as cotações, negociações e aberturas de Ordens de Serviços pela Internet através da sua própria rede de prestadores de serviços credenciados.
+					Neste módulo é possível realizar as cotações, negociações e aberturas de Ordens de Serviços pela Internet
 				</p>
 				<a href="<?php echo site_url(); ?>/modulo-gmd"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
 			</div>
-			<div class="col grid_6_of_12">
+			<div class="col grid_6_of_12 solucoes-padding">
 				<h2 style="text-align:center">CRIAÇÃO DE SITE</h2>
 				<h5 style="text-align:center; color:#333">Tenha um site para sua empresa</h5>
 				<a href="<?php echo site_url(); ?>/criacao-de-site"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/criacao_site.png"; ?>"/></a>

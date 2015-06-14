@@ -345,16 +345,16 @@ get_header(); ?>
 	</div>
 	<div id="secondary" role="main">
 		<div class="site-content row">
-			<div class="col grid_6_of_12">
+			<div class="col grid_6_of_12 solucoes-padding">
 				<h3 style="text-align:center">GMD</h3>
 				<h6 style="text-align:center">Gerenciamento e Manutenção a Distância</h6>
 				<a href="<?php echo site_url(); ?>/modulo-gmd"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
 				<p style="text-align:center">
-					Neste módulo é possível realizar as cotações, negociações e aberturas de Ordens de Serviços pela Internet através da sua própria rede de prestadores de serviços credenciados.
+					Neste módulo é possível realizar as cotações, negociações e aberturas de Ordens de Serviços pela Internet
 				</p>
 				<a href="<?php echo site_url(); ?>/modulo-gmd"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
 			</div>
-			<div class="col grid_6_of_12">
+			<div class="col grid_6_of_12 solucoes-padding">
 				<h3 style="text-align:center">CRIACÃO DE SITE</h3>
 				<h6 style="text-align:center">Tenha um site para sua empresa</h6>
 				<a href="<?php echo site_url(); ?>/criacao-de-site"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/criacao_site.png"; ?>"/></a>

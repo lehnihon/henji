@@ -14,7 +14,6 @@
 		</div>		
 		<div class="col grid_8_of_12" style="height:100%" >
 			<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 5 ); }	?>		
-			<div style="clear:both"></div>
 		</div>
 	</div>
 </div>

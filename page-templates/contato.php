@@ -22,7 +22,7 @@ get_header(); ?>
 					<h2>Contato</h2>
 					<h5 style="color:#333">Entre em contato com a Henji.</h5>
 				</div>
-			</div><br><br>
+			</div><br>
 			<div class="row">
 				<div class="col grid_6_of_12">
 					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 7 ); } ?>
