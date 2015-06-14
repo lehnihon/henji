@@ -2514,26 +2514,8 @@ h1.page-title {
 	}
 	header .grid_7_of_12 {
 		width: 100%;
-		margin-left: 0;
-	}
-	header .main-navigation {	
-		float: none;
 	}
 
-	header .main-navigation a {
-		color:#333;
-	}
-
-	.main-navigation .nav-menu > li:first-child {
-		margin-left: 0;
-	}
-	.social-media-icons {
-		float: none;
-		text-align: left;
-	}
-	.social-media-icons li {
-		margin: 0.1em 0.5em 0 0;
-	}
 }
 
 /*  Go full Width at less than 650px */
@@ -2555,13 +2537,7 @@ h1.page-title {
 	.col {
 		margin: 0;
 	}
-	.main-small-navigation .nav-menu, .nav-menu ul {
-		padding: 0;
-	}
-	.main-small-navigation .nav-menu ul {
-		padding-left: 16px;
-		padding-left: 1rem;
-	}
+
 }
 
 
@@ -2570,39 +2546,7 @@ h1.page-title {
 	.site-title h1 {
 		text-align: center;
 	}
-	.main-small-navigation .nav-menu,
-	.main-small-navigation .nav-menu ul,
-	.nav-menu,
-	.nav-menu ul {
-		padding: 0;
-	}
-	.main-small-navigation,
-	.main-navigation li {
-		width: 100%;
-	}
-	.main-small-navigation {
-		text-align: center;
-	}
-	.main-small-navigation ul li,
-	.main-navigation ul li {
-		background-color: #fff;
-		margin: 5px 0;
-		text-align: center;
-	}
-	.main-navigation ul ul, .main-navigation ul ul li ul {
-		position: relative;
-	}
-	.main-navigation ul ul li ul {
-		left: 0;
-	}
-	.main-navigation ul ul a {
-		color: #fff; /* Nav bar dropdown link color */
-		background-color: #333;  /* Nav bar dropdown background color */
-		width: 100%; /* Nav bar dropdown width */
-	}
-	.social-media-icons {
-		text-align: center;
-	}
+
 }
 
 @media only screen and (max-width: 320px) {
