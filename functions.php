@@ -50,6 +50,12 @@ if ( ! function_exists( 'quark_setup' ) ) {
 		// Create an extra image size for the Post featured image
 		add_image_size( 'post_feature_full_width', 792, 300, true );
 
+		// This theme uses wp_nav_menu() in one location
+		register_nav_menus( array(
+				'primary' => esc_html__( 'Primary Menu', 'quark' )
+			) );
+		
+		
 		// This theme supports a variety of post formats
 		add_theme_support( 'post-formats', array( 'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video' ) );
 
