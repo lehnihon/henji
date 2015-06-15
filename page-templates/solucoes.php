@@ -42,7 +42,7 @@ get_header(); ?>
 					<h3 style="text-align:center">GMD</h3>
 					<h6 style="text-align:center">Gerenciamento e Manutenção a Distância</h6>
 					<a href="<?php echo site_url(); ?>/modulo-gmd"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/gmd.png"; ?>"/></a>
-					<p style="text-align:center; margin-bottom:50px">
+					<p style="text-align:center; margin-top:30px; margin-bottom:40px">
 						Neste módulo é possível realizar as cotações, negociações e aberturas de Ordens de Serviços pela Internet.
 					</p>
 					<a href="<?php echo site_url(); ?>/modulo-gmd"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
@@ -53,7 +53,7 @@ get_header(); ?>
 					<h3 style="text-align:center">CRIAÇÃO DE SITE</h3>
 					<h6 style="text-align:center">Tenha um site para sua empresa</h6>
 					<a href="<?php echo site_url(); ?>/criacao-de-site"><img class="efeito-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/criacao_site.png"; ?>"/></a>
-					<p style="text-align:center">
+					<p style="text-align:center; margin-top:30px">
 						A Henji está inovando mais uma vez, estamos oferecendo o serviço de criação de sites para locadoras de veículos.
 					</p>
 					<a href="<?php echo site_url(); ?>/criacao-de-site"><img class="saiba-mais" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba_mais.png"; ?>"/></a>
